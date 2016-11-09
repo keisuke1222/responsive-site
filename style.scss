@@ -8,6 +8,7 @@
 header{
   height:250px;
 }
+
 }
 
 header{
@@ -27,15 +28,23 @@ font-size: 40px;
   flex-direction: row;
 }
 .box{
-     border: solid 5px skyblue;
+     background-color: #f3ff5b;
+     border: solid 5px #cccccc;
      width: 33.3%;
      margin: 10px;
+    
   box-sizing: border-box;
   letter-spacing: 10px;
   height: 200px;
+  @media (max-width: 768px) { 
+      width: 90%;
+      margin-bottom: 10px;
+  }
   
+ 
       
 }
+
 .text-center{
     text-align: center;
 }
@@ -52,17 +61,14 @@ font-size: 40px;
     flex-direction: column;
   }
 }
-  
-p{
-    margin:auto;
-    height: 75%;
-    background-color: #F3FF5B;
-    vertical-align: middle;
- text-align: center;
+  p{
+    padding:10px 0px 0px 0px ;
+   
+ 
 
 }
 footer{
-    height: 50px;
+    height: 100px;
     background-color: #F3FF5B;
     
     
@@ -76,23 +82,27 @@ font-size: 30px;
 }
 
 .top{
-    height: 75%;
+    height: 30px;
   
        display: block;
           background-color: #FF3D33;
 }  
 
 .botan{
-    height: 30%;
+    margin: 10px;
          background-color: #F3FF5B;
     display: block;
-    border: solid 1px;
+   
    
 }
     
 footer h3{
+    
     width: 10%;
     margin: auto;
+    padding: 15px 0;
+     border: solid 1px black;
+    border-radius: 4px;
    
   
 }
